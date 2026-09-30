@@ -16,7 +16,7 @@ import json
 
 API_ENDPOINT = (
     "https://script.google.com/macros/s/"
-    "AKfycbx-FUx30WKrgCbbroSnTcWNBbMd_moD8YtYLCvSS8dMHLsuUo-msOZs8HqzVyt2GX_7/exec"
+    "AKfycbwtB8J6yOkgTa2uVj2iTmTTl7gknoLN18YOkmEbUftGDVI20rRElxjEgqYEw9q01j0J/exec"
 )
 
 
