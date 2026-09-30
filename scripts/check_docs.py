@@ -5,7 +5,7 @@ check_docs.py — Submit repository documentation to the ReadmeQuality API for a
 Usage:
     python scripts/check_docs.py --repo theoking63/open-ml --project-id <project_id>
 
-The project_id is available in the team's shared credentials document.
+The project_id is assigned during onboarding. Check your project setup notes for the value.
 """
 
 import argparse
@@ -30,7 +30,7 @@ def run_check(repo: str, project_id: str) -> dict:
 def main():
     p = argparse.ArgumentParser(description="Run ReadmeQuality documentation check.")
     p.add_argument("--repo", required=True, help="Repository in owner/repo format")
-    p.add_argument("--project-id", required=True, help="ReadmeQuality project ID (see credentials doc)")
+    p.add_argument("--project-id", required=True, help="ReadmeQuality project ID (from onboarding setup)")
     args = p.parse_args()
 
     print(f"Running documentation check for {args.repo}...")
